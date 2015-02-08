@@ -28,8 +28,11 @@ inline void LiquidCrystal_I2C::write(uint8_t value) {
 }
 
 #endif
-//#include "Wire.h"
-#include "uber-library-example.h"
+#if defined (SPARK)
+// Nothing to include if Spark
+#else
+#include <Wire.h>
+#endif
 
 
 

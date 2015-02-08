@@ -5,8 +5,14 @@
 #include <inttypes.h>
 //#include "Print.h" 
 //#include <Wire.h>
-#include <uber-library-example.h>
+//#include <uber-library-example.h>
 #include "application.h"
+
+#if defined (SPARK)
+// Nothing to include if Spark
+#else
+#include <Wire.h>
+#endif
 
 // commands
 #define LCD_CLEARDISPLAY 0x01
