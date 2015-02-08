@@ -3,8 +3,9 @@
 #define LiquidCrystal_I2C_h
 
 #include <inttypes.h>
-#include "Print.h" 
+//#include "Print.h" 
 #include <Wire.h>
+#include "application.h"
 
 // commands
 #define LCD_CLEARDISPLAY 0x01
