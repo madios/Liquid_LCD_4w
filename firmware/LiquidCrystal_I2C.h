@@ -4,8 +4,9 @@
 
 #include <inttypes.h>
 //#include "Print.h" 
-#include <Wire.h>
-#include "application.h"
+//#include <Wire.h>
+#include “uber-library-example/uber-library-example.h”
+//#include "application.h"
 
 // commands
 #define LCD_CLEARDISPLAY 0x01
