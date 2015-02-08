@@ -6,7 +6,7 @@
 //#include "Print.h" 
 //#include <Wire.h>
 //#include <uber-library-example.h>
-#include "application.h"
+//#include "application.h"
 
 #if defined (SPARK)
 // Nothing to include if Spark
