@@ -20,7 +20,7 @@ inline size_t LiquidCrystal_I2C::write(uint8_t value) {
 }
 
 #else
-#include "WProgram.h"
+//#include "WProgram.h"
 
 #define printIIC(args)	Wire.send(args)
 inline void LiquidCrystal_I2C::write(uint8_t value) {
@@ -28,7 +28,7 @@ inline void LiquidCrystal_I2C::write(uint8_t value) {
 }
 
 #endif
-#include "Wire.h"
+//#include "Wire.h"
 
 
 
