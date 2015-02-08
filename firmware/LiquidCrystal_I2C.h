@@ -5,7 +5,7 @@
 #include <inttypes.h>
 //#include "Print.h" 
 //#include <Wire.h>
-//#include <uber-library-example.h>
+#include <uber-library-example.h>
 #include "application.h"
 
 // commands
